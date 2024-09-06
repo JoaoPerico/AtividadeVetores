@@ -6,9 +6,19 @@ public class Atividade3 {
         valores[0] = 5;
         valores[1] = 10;
 
-        int valor = valores[0];
+        System.out.println("Valores antes da troca");
+        System.out.println("Valor 1: " + valores[0]);
+        System.out.println("Valor 2: " + valores[1]);
 
 
+        int valor1 = valores[0];
+
+        valores[0] = valores[1];
+        valores[1] = valor1;
+
+        System.out.println("Valor depois da troca");
+        System.out.println("Valor 1: " + valores[0]);
+        System.out.println("Valor 2: " + valores[1]);
 
     }
 }
